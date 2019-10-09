@@ -16,4 +16,5 @@ USER root
 # Note that we don't know exactly which version of ffmpeg will come down.
 RUN ln ffmpeg-*-amd64-static/ffmpeg /usr/local/bin/ffmpeg
 
+WORKDIR /home/lab1
 RUN git clone https://github.com/marwin1991/Particles-simulation-in-Python
