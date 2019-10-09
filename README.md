@@ -6,5 +6,4 @@ You need installed: \
 	- atooms \
 	- py3Dmol \
 	- pymunk \
-	
 	- ffmpeg (https://www.wikihow.com/Install-FFmpeg-on-Windows)
