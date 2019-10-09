@@ -1,5 +1,4 @@
-FROM andrewosh/binder-base
-#FROM binder-project/binder:binder/images/base/Dockerfile
+FROM jupyter/scipy-notebook
 
 USER root
 
