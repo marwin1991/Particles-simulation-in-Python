@@ -15,3 +15,5 @@ RUN tar xvfJ ffmpeg-release-amd64-static.tar.xz
 USER root
 # Note that we don't know exactly which version of ffmpeg will come down.
 RUN ln ffmpeg-*-amd64-static/ffmpeg /usr/local/bin/ffmpeg
+
+RUN git clone https://github.com/marwin1991/Particles-simulation-in-Python
